@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD28F2F327D75DB800772B3C /* womensDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD28F2F227D75DB800772B3C /* womensDayApp.swift */; };
+		AD28F2F527D75DB800772B3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD28F2F427D75DB800772B3C /* ContentView.swift */; };
+		AD28F2F727D75DB900772B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD28F2F627D75DB900772B3C /* Assets.xcassets */; };
+		AD28F2FA27D75DB900772B3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD28F2F927D75DB900772B3C /* Preview Assets.xcassets */; };
+		AD28F30427D75DB900772B3C /* womensDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD28F30327D75DB900772B3C /* womensDayTests.swift */; };
+		AD28F30E27D75DB900772B3C /* womensDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD28F30D27D75DB900772B3C /* womensDayUITests.swift */; };
+		AD28F31027D75DB900772B3C /* womensDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD28F30F27D75DB900772B3C /* womensDayUITestsLaunchTests.swift */; };
+		AD28F31E27D75E3A00772B3C /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD28F31D27D75E3A00772B3C /* ConfettiSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD28F30027D75DB900772B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD28F2E727D75DB800772B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD28F2EE27D75DB800772B3C;
+			remoteInfo = womensDay;
+		};
+		AD28F30A27D75DB900772B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD28F2E727D75DB800772B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD28F2EE27D75DB800772B3C;
+			remoteInfo = womensDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD28F2EF27D75DB800772B3C /* womensDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = womensDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD28F2F227D75DB800772B3C /* womensDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womensDayApp.swift; sourceTree = "<group>"; };
+		AD28F2F427D75DB800772B3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD28F2F627D75DB900772B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD28F2F927D75DB900772B3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD28F2FF27D75DB900772B3C /* womensDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = womensDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD28F30327D75DB900772B3C /* womensDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womensDayTests.swift; sourceTree = "<group>"; };
+		AD28F30927D75DB900772B3C /* womensDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = womensDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD28F30D27D75DB900772B3C /* womensDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womensDayUITests.swift; sourceTree = "<group>"; };
+		AD28F30F27D75DB900772B3C /* womensDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womensDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD28F2EC27D75DB800772B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD28F31E27D75E3A00772B3C /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F2FC27D75DB900772B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F30627D75DB900772B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD28F2E627D75DB800772B3C = {
+			isa = PBXGroup;
+			children = (
+				AD28F2F127D75DB800772B3C /* womensDay */,
+				AD28F30227D75DB900772B3C /* womensDayTests */,
+				AD28F30C27D75DB900772B3C /* womensDayUITests */,
+				AD28F2F027D75DB800772B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD28F2F027D75DB800772B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD28F2EF27D75DB800772B3C /* womensDay.app */,
+				AD28F2FF27D75DB900772B3C /* womensDayTests.xctest */,
+				AD28F30927D75DB900772B3C /* womensDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD28F2F127D75DB800772B3C /* womensDay */ = {
+			isa = PBXGroup;
+			children = (
+				AD28F2F227D75DB800772B3C /* womensDayApp.swift */,
+				AD28F2F427D75DB800772B3C /* ContentView.swift */,
+				AD28F2F627D75DB900772B3C /* Assets.xcassets */,
+				AD28F2F827D75DB900772B3C /* Preview Content */,
+			);
+			path = womensDay;
+			sourceTree = "<group>";
+		};
+		AD28F2F827D75DB900772B3C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD28F2F927D75DB900772B3C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD28F30227D75DB900772B3C /* womensDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD28F30327D75DB900772B3C /* womensDayTests.swift */,
+			);
+			path = womensDayTests;
+			sourceTree = "<group>";
+		};
+		AD28F30C27D75DB900772B3C /* womensDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD28F30D27D75DB900772B3C /* womensDayUITests.swift */,
+				AD28F30F27D75DB900772B3C /* womensDayUITestsLaunchTests.swift */,
+			);
+			path = womensDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD28F2EE27D75DB800772B3C /* womensDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD28F31327D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDay" */;
+			buildPhases = (
+				AD28F2EB27D75DB800772B3C /* Sources */,
+				AD28F2EC27D75DB800772B3C /* Frameworks */,
+				AD28F2ED27D75DB800772B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = womensDay;
+			packageProductDependencies = (
+				AD28F31D27D75E3A00772B3C /* ConfettiSwiftUI */,
+			);
+			productName = womensDay;
+			productReference = AD28F2EF27D75DB800772B3C /* womensDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD28F2FE27D75DB900772B3C /* womensDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD28F31627D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDayTests" */;
+			buildPhases = (
+				AD28F2FB27D75DB900772B3C /* Sources */,
+				AD28F2FC27D75DB900772B3C /* Frameworks */,
+				AD28F2FD27D75DB900772B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD28F30127D75DB900772B3C /* PBXTargetDependency */,
+			);
+			name = womensDayTests;
+			productName = womensDayTests;
+			productReference = AD28F2FF27D75DB900772B3C /* womensDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD28F30827D75DB900772B3C /* womensDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD28F31927D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDayUITests" */;
+			buildPhases = (
+				AD28F30527D75DB900772B3C /* Sources */,
+				AD28F30627D75DB900772B3C /* Frameworks */,
+				AD28F30727D75DB900772B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD28F30B27D75DB900772B3C /* PBXTargetDependency */,
+			);
+			name = womensDayUITests;
+			productName = womensDayUITests;
+			productReference = AD28F30927D75DB900772B3C /* womensDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD28F2E727D75DB800772B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD28F2EE27D75DB800772B3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AD28F2FE27D75DB900772B3C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AD28F2EE27D75DB800772B3C;
+					};
+					AD28F30827D75DB900772B3C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AD28F2EE27D75DB800772B3C;
+					};
+				};
+			};
+			buildConfigurationList = AD28F2EA27D75DB800772B3C /* Build configuration list for PBXProject "womensDay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD28F2E627D75DB800772B3C;
+			packageReferences = (
+				AD28F31C27D75E3A00772B3C /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = AD28F2F027D75DB800772B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD28F2EE27D75DB800772B3C /* womensDay */,
+				AD28F2FE27D75DB900772B3C /* womensDayTests */,
+				AD28F30827D75DB900772B3C /* womensDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD28F2ED27D75DB800772B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD28F2FA27D75DB900772B3C /* Preview Assets.xcassets in Resources */,
+				AD28F2F727D75DB900772B3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F2FD27D75DB900772B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F30727D75DB900772B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD28F2EB27D75DB800772B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD28F2F527D75DB800772B3C /* ContentView.swift in Sources */,
+				AD28F2F327D75DB800772B3C /* womensDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F2FB27D75DB900772B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD28F30427D75DB900772B3C /* womensDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD28F30527D75DB900772B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD28F31027D75DB900772B3C /* womensDayUITestsLaunchTests.swift in Sources */,
+				AD28F30E27D75DB900772B3C /* womensDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD28F30127D75DB900772B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD28F2EE27D75DB800772B3C /* womensDay */;
+			targetProxy = AD28F30027D75DB900772B3C /* PBXContainerItemProxy */;
+		};
+		AD28F30B27D75DB900772B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD28F2EE27D75DB800772B3C /* womensDay */;
+			targetProxy = AD28F30A27D75DB900772B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD28F31127D75DB900772B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD28F31227D75DB900772B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD28F31427D75DB900772B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"womensDay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD28F31527D75DB900772B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"womensDay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD28F31727D75DB900772B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/womensDay.app/womensDay";
+			};
+			name = Debug;
+		};
+		AD28F31827D75DB900772B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/womensDay.app/womensDay";
+			};
+			name = Release;
+		};
+		AD28F31A27D75DB900772B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = womensDay;
+			};
+			name = Debug;
+		};
+		AD28F31B27D75DB900772B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.womensDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = womensDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD28F2EA27D75DB800772B3C /* Build configuration list for PBXProject "womensDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD28F31127D75DB900772B3C /* Debug */,
+				AD28F31227D75DB900772B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD28F31327D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD28F31427D75DB900772B3C /* Debug */,
+				AD28F31527D75DB900772B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD28F31627D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD28F31727D75DB900772B3C /* Debug */,
+				AD28F31827D75DB900772B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD28F31927D75DB900772B3C /* Build configuration list for PBXNativeTarget "womensDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD28F31A27D75DB900772B3C /* Debug */,
+				AD28F31B27D75DB900772B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD28F31C27D75E3A00772B3C /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD28F31D27D75E3A00772B3C /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD28F31C27D75E3A00772B3C /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD28F2E727D75DB800772B3C /* Project object */;
+}
